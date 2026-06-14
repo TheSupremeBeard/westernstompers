@@ -19,7 +19,7 @@ export default function Home() {
           <Link href="/socials" className="text-blue-500 underline">
             socials
           </Link>{" "}
-          for latest events and updates.
+          for latest events and updates!
         </p>
       </main>
     </div>

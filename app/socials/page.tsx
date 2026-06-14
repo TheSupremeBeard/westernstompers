@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 type SocialLink = {
   name: string;
   url: string;
@@ -91,6 +93,16 @@ export default function SocialsPage() {
       <div className="pointer-events-none absolute -bottom-24 left-0 h-64 w-64 rounded-full bg-sky-200/50 blur-3xl" />
 
       <main className="relative w-full max-w-2xl rounded-3xl border border-white/70 bg-white/85 p-8 shadow-[0_20px_80px_-30px_rgba(15,23,42,0.45)] backdrop-blur md:p-10">
+        <div className="mb-6 flex justify-start">
+          <Image
+            src="/logo.png"
+            alt="Western Stompers logo"
+            width={220}
+            height={220}
+            priority
+            className="h-auto w-30 rounded-full"
+          />
+        </div>
         <p className="text-xs font-semibold uppercase tracking-[0.22em] text-zinc-500">
           Western Stompers
         </p>

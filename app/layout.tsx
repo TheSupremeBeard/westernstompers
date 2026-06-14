@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import icon512 from "./android-chrome-512x512.png";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -16,6 +17,15 @@ export const metadata: Metadata = {
   title: "Western Stompers",
   description:
     "Western Stompers, Stretford. Official site for events, socials, and updates.",
+  icons: {
+    icon: [
+      {
+        url: icon512.src,
+        sizes: "512x512",
+        type: "image/png",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({

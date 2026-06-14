@@ -78,6 +78,10 @@ const socialLinks: SocialLink[] = [
     name: "Instagram",
     url: "https://www.instagram.com/westernstompers?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
   },
+  {
+    name: "TikTok",
+    url: "https://www.tiktok.com/@gem.westernstompers?_r=1&_t=ZN-97Cai9xzSre",
+  },
 ];
 
 export default function SocialsPage() {
